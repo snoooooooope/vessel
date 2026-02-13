@@ -37,7 +37,7 @@ A wrapper for `mmap` regions.
 
 ## Why?
 
-If you work with Rust and C code regularly you'll find yourself writing a lot of the same boiler plate code. I got tired of doing that so I write this library which help me be a lazy piece of shit.
+If you work with Rust and C code regularly you'll find yourself writing a lot of the same boiler plate code. I got tired of doing that so I wrote this library, which helps me be a lazy piece of shit.
  
 * All constructors for raw pointers or descriptors are `unsafe`. As such, the caller MUST ensure the source is valid.
 * Uses `NonNull` and `addr` logic.
