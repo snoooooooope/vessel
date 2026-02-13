@@ -1,0 +1,8 @@
+[package]
+name = "vessel"
+version = "0.1.06"
+edition = "2024"
+authors = ["github@snoooooooope"]
+
+[dependencies]
+libc = "0.2.181"
